@@ -8,6 +8,7 @@ export default function Home() {
     email: "",
     password: ""
   })
+console.log("testing");
 
   const handleSubmit = (e:any) =>{
     e.preventDefault()
