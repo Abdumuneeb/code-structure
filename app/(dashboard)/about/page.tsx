@@ -1,13 +1,8 @@
 import { NextPage } from 'next';
 import React from 'react';
+import { TeamMember } from '@/app/types/commanTypes';
 
 // Define types for your content
-interface TeamMember {
-    name?: string,
-    position?: string,
-    image?: string
-}
-
 const teamMembers: TeamMember[] = [
   {
     name: 'John Doe',

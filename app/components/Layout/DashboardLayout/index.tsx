@@ -20,7 +20,7 @@ const theme = createTheme({
 
 export default function DashboardLayout({ children }: { children: React.ReactNode }) {
   return(
-    <div className={`flex flex-col min-h-screen min-w-screen`}>
+    <div className={`flex flex-col min-w-screen`}>
         <ThemeProvider theme={theme}>
             <Container>
                 <Box>
